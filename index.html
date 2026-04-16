@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BalakrishnanS — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <!-- ─── HEADER ─────────────────────────────────────────── -->
+  <header class="header" id="header">
+    <div class="header-inner container">
+      <a href="#" class="logo">B<span>K</span></a>
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon">◐</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─── HERO ──────────────────────────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="hero-eyebrow reveal">Frontend Developer &amp; Editor</p>
+      <h1 class="hero-title reveal">
+        Balakrishnan.S<em></em>
+      </h1>
+      <p class="hero-typing reveal">
+        I build&nbsp;<span id="typingText" class="typing-target"></span><span class="cursor-blink">|</span>
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator reveal">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label reveal">01 / About</div>
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <div class="photo-frame">
+            <div class="photo-placeholder">
+              <span>BS</span>
+              <div class="photo-ring"></div>
+            </div>
+          </div>
+          <div class="about-tag">Open to work ✦</div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title reveal">Crafting digital experiences<br /><em>with precision.</em></h2>
+          <p class="reveal">
+            I'm Balakrishnan S., a passionate  developer based in Tamil Nadu, India. I specialise in building clean, performant web applications that bridge the gap between elegant design and robust engineering.
+          </p>
+          <p class="reveal">
+            With a strong foundation in modern JavaScript ecosystems and an eye for design, I bring ideas from wireframe to deployment — always obsessing over the details that make a product memorable.
+          </p>
+          <div class="about-stats reveal">
+            <div class="stat"><span class="stat-num">Fresher</span><span class="stat-label">Years exp.</span></div>
+            <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Projects</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ────────────────────────────────────────── -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-label reveal">02 / Skills</div>
+      <h2 class="section-title reveal">What I work with</h2>
+      <div class="skills-grid">
+
+        <!-- Category cards -->
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">⬡</div>
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span>HTML</span><span>CSS</span><span>TypeScript</span><span>Js</span>
+          </div>
+          <div class="skill-bar-group">
+            <div class="skill-bar-row"><span>HTML</span><div class="skill-bar"><div class="skill-fill" data-w="90"></div></div></div>
+            <div class="skill-bar-row"><span>Js</span><div class="skill-bar"><div class="skill-fill" data-w="80"></div></div></div>
+            <div class="skill-bar-row"><span>CSS</span><div class="skill-bar"><div class="skill-fill" data-w="95"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card-icon">◎</div>
+          <h3>Tools </h3>
+          <div class="skill-tags">
+            <span>Git</span><span>VS Code</span>
+          </div>
+          <div class="skill-bar-group">
+            <div class="skill-bar-row"><span>Git / GitHub</span><div class="skill-bar"><div class="skill-fill" data-w="70"></div></div></div>
+            <div class="skill-bar-row"><span>VS Code</span><div class="skill-bar"><div class="skill-fill" data-w="78"></div></div></div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────────── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label reveal">03 / Projects</div>
+      <h2 class="section-title reveal">Selected work</h2>
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-num">01</div>
+          <div class="project-type">E-Commerce</div>
+          <h3 class="project-title">Automated Price comparision and Tracking System</h3>
+          <p class="project-desc">Developed an Automated Price comparision and Tracking System aimed at assisting users in finding the best deals across various E-Commerce platforms. It Automate the price of monitoring products prices and it shows the price decrease or increase.</p>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>Webscraping</span>
+          </div>
+          <!--<div class="project-links">
+            <a href="#" class="btn btn-sm btn-outline">GitHub ↗</a>
+          </div>-->
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-num">02</div>
+          <div class="project-type">Mini project</div>
+          <h3 class="project-title">Image Classification Using Auto Encoders</h3>
+          <p class="project-desc">The encoder reduces the data's dimensions, and the decoder tries to recontruct the original input. it clear the Noise in image </p>
+          <div class="project-stack">
+            <span>Python</span><span>Encoder/Decoder</span>
+          </div>
+            
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────────── -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-label reveal">04 / Contact</div>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <h2 class="section-title reveal">Let's build<br /><em>something great.</em></h2>
+          <p class="reveal">Have a project in mind or want to collaborate? I'm always open to discussing new opportunities and creative ideas.</p>
+          <div class="contact-links reveal">
+            <a href="https://linkedin.com/in/balakrishnans" target="_blank" rel="noopener" class="contact-social">
+              <span class="social-icon">in</span>
+              <span>LinkedIn</span>
+              <span class="social-arrow">↗</span>
+            </a>
+            <a href="mailto:krishnansbala13@gmail.com" class="contact-social">
+              <span class="social-icon">@</span>
+              <span>Email me</span>
+              <span class="social-arrow">↗</span>
+            </a>
+            <a href="https://github.com/balakrishnans" target="_blank" rel="noopener" class="contact-social">
+              <span class="social-icon">gh</span>
+              <span>GitHub</span>
+              <span class="social-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span id="btnText">Send Message</span>
+              <span class="btn-arrow">→</span>
+            </button>
+            <div class="form-success" id="formSuccess">Message sent! I'll get back to you soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="#" class="logo">B<span>K</span></a>
+        <p>Designed &amp; built by Balakrishnan.S</p>
+      </div>
+      <div class="footer-right">
+        <p class="copyright">© 2025 Balakrishnan.S All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/balakrishnans" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/balakrishnans" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:balakrishnan@example.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
